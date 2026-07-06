@@ -1,3 +1,10 @@
+---
+layout: default
+title: "The Rise of Domain-Integrated Consultants"
+permalink: /The_Rise_of_Domain_Integrated_Consultants.html
+description: "Why enterprise consulting increasingly requires professionals who can connect technology, operations and business outcomes."
+---
+
 <img src="./Domain_Integrated_Consultants_Banner.png" alt="Domain Integrated Consultants Banner" width="100%" />
 
 

@@ -1,21 +1,17 @@
-title: "Tech Insights by Veera T"
-description: "Deep insights on Enterprise Technology, SAP S/4HANA Transformation, and AI-led Business Strategy."
+title: "Veera Babu Tiragatla"
+description: "Enterprise data systems, artificial intelligence, systems thinking and human understanding."
 theme: jekyll-theme-cayman
-author: "Veera T"
-url: "https://t-veerababu.github.io/tech-insights/"
+author: "Veera Babu Tiragatla"
+url: "https://www.veerababutiragatla.com"
+baseurl: ""
+lang: "en-AU"
 show_downloads: false
 markdown: GFM
 github:
   is_project_page: true
-  repository_url: "https://github.com/T-VeeraBabu/tech-insights"
-show_downloads: false
-header_image: s4hana-thebest.png
-
-plugins:
-  - jekyll-seo-tag
-include:
-  - assets/css/custom.css
-
+  repository_url: "https://github.com/VeeraBabuTiragatla/tech-insights"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+include:
+  - assets/css/custom.css

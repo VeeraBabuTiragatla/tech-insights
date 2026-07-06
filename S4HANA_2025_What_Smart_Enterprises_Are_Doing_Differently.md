@@ -2,6 +2,7 @@
 layout: default
 title: "S/4HANA in 2025: What Smart Enterprises Are Doing Differently"
 permalink: /S4HANA_2025_What_Smart_Enterprises_Are_Doing_Differently.html
+description: "Why effective S/4HANA transformations treat the programme as business architecture rather than a technical upgrade."
 ---
 
 ![S/4HANA 2025](/s4hana-thebest.png)

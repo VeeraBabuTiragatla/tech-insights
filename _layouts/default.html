@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | Veera Babu Tiragatla</title>
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <meta name="author" content="Veera Babu Tiragatla">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/custom.css' | relative_url }}">
+</head>
+<body class="article-page">
+  <a class="skip-link" href="#article">Skip to article</a>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true">V</span>
+      <span>Veera Babu Tiragatla</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}#journey">Journey</a>
+      <a href="{{ '/' | relative_url }}#insights">Insights</a>
+      <a href="{{ '/' | relative_url }}#projects">Projects</a>
+      <a href="{{ '/' | relative_url }}#connect">Connect</a>
+    </nav>
+  </header>
+  <main id="article" class="article-shell">
+    <p class="eyebrow">Tech Insights · Veera Babu Tiragatla</p>
+    <article class="article-content">
+      {{ content }}
+    </article>
+    <aside class="article-author">
+      <p>Written by <strong>Veera Babu Tiragatla</strong>, exploring enterprise systems, AI and the human understanding behind better decisions.</p>
+      <a href="{{ '/' | relative_url }}#insights">Explore more insights →</a>
+    </aside>
+  </main>
+  <footer>
+    <span>© 2026 Veera Babu Tiragatla</span>
+    <a href="https://www.linkedin.com/in/veerababutiragatla/">Connect on LinkedIn</a>
+  </footer>
+</body>
+</html>

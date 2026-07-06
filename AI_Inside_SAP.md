@@ -2,6 +2,7 @@
 layout: default
 title: "AI Inside SAP: Where Automation Is Quietly Transforming Operations"
 permalink: /AI_Inside_SAP.html
+description: "A practical look at how AI is reducing friction inside SAP maintenance, reconciliation and planning workflows."
 ---
 
 ![AI inside SAP](/ai-inside-sap.png)

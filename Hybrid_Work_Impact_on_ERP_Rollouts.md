@@ -2,6 +2,7 @@
 layout: default
 title: "How Hybrid Work Has Affected ERP Rollouts"
 permalink: /Hybrid_Work_Impact_on_ERP_Rollouts.html
+description: "How hybrid work changes governance, adoption, training and cutover planning for modern ERP programmes."
 ---
 
 ![Hybrid Work & ERP](/hybrid-erp.png)
