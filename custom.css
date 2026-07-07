@@ -422,10 +422,36 @@ footer {
   font-size: clamp(2.7rem, 6vw, 4.8rem);
 }
 
+.article-deck {
+  max-width: 720px;
+  margin: -1rem 0 0;
+  color: var(--ink-soft) !important;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.2rem, 2.5vw, 1.55rem) !important;
+  line-height: 1.4;
+}
+
+.article-meta {
+  margin: 1.2rem 0 2.5rem;
+  color: var(--accent) !important;
+  font-size: .78rem !important;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.article-figure { margin: 2rem 0 3rem; }
+.article-figure img { margin: 0; border: 1px solid var(--line); }
+.article-figure figcaption { margin-top: .75rem; color: var(--ink-soft); font-size: .82rem; }
+
 .article-content h2 { margin: 2.7rem 0 1rem; font-size: clamp(1.8rem, 4vw, 2.6rem); }
 .article-content h3 { margin-top: 2rem; font-size: 1.25rem; }
 .article-content p, .article-content li { color: #33433d; font-size: 1.06rem; }
 .article-content img { width: 100%; height: auto; margin: 1rem 0 2.5rem; border-radius: 4px; }
+.article-content table { width: 100%; margin: 2rem 0; border-collapse: collapse; font-size: .92rem; }
+.article-content th, .article-content td { padding: .85rem; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.article-content th { color: white; background: var(--accent-dark); }
+.article-content tr:nth-child(even) { background: var(--surface); }
 .article-content hr { margin: 2.5rem 0; border: 0; border-top: 1px solid var(--line); }
 .article-content a { color: var(--accent); }
 
