@@ -3,7 +3,7 @@ layout: default
 title: "When AI Enters SAP, Governance Becomes Part of the Workflow"
 permalink: /when-ai-enters-sap-governance-becomes-part-of-the-workflow/
 description: "A practical essay on why AI inside SAP workflows requires governance at the point of action, not only in policies, committees or after-the-fact audits."
-image: assets/images/ai-enters-sap-governance-og.png
+image: /assets/images/ai-enters-sap-governance-og.png
 date: 2026-07-09
 ---
 
@@ -14,7 +14,7 @@ date: 2026-07-09
 <p class="article-meta">Veera Babu Tiragatla &middot; 8 minute read</p>
 
 <figure class="article-figure">
-  <img src="assets/images/ai-enters-sap-governance-hero.png" alt="A bright enterprise workflow title card for AI governance becoming part of SAP workflow">
+  <img src="/assets/images/ai-enters-sap-governance-hero.png" alt="A bright enterprise workflow title card for AI governance becoming part of SAP workflow">
   <figcaption>When AI enters the flow of enterprise work, governance has to move from policy into the moment of action.</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ For AI-enabled SAP workflows, I think of this as a **Workflow Governance Layer**
 It has five moments.
 
 <figure class="article-figure">
-  <img src="assets/images/workflow-governance-layer.svg" alt="The Workflow Governance Layer model showing context, evidence, guardrails, traceability and learning">
+  <img src="/assets/images/workflow-governance-layer.svg" alt="The Workflow Governance Layer model showing context, evidence, guardrails, traceability and learning">
   <figcaption>The Workflow Governance Layer: context before the suggestion, evidence at the suggestion, guardrails before action, traceability after action and feedback during learning.</figcaption>
 </figure>
 
