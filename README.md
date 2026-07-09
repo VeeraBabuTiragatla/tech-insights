@@ -10,6 +10,8 @@ Veera Babu Tiragatla draws on approximately 25 years in information technologyâ€
 
 ## Published insights
 
+- [When AI Enters SAP, Governance Becomes Part of the Workflow](When_AI_Enters_SAP_Governance_Workflow.md)
+- [From Data Processing to Decision Intelligence](From_Data_Processing_to_Decision_Intelligence.md)
 - [S/4HANA: What Smart Enterprises Are Doing Differently](S4HANA_2025_What_Smart_Enterprises_Are_Doing_Differently.md)
 - [From ECC to Cloud ERP: The Migration Blind Spots Few Discuss](ECC_to_CloudERP_Migration_Blind_Spots.md)
 - [AI Inside SAP: Where Automation Is Quietly Transforming Operations](AI_Inside_SAP.md)

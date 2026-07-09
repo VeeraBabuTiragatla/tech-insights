@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">The Workflow Governance Layer</title>
+  <desc id="desc">A five-stage model showing governance moments around AI-enabled enterprise workflows: context, evidence, guardrails, traceability and learning.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7f3eb"/>
+      <stop offset="100%" stop-color="#e7efe9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#17483f"/>
+      <stop offset="100%" stop-color="#d79b55"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#17483f" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .title { font: 600 48px Georgia, serif; fill: #173f37; }
+      .subtitle { font: 400 22px "Segoe UI", Arial, sans-serif; fill: #53645e; }
+      .label { font: 700 20px "Segoe UI", Arial, sans-serif; fill: #173f37; }
+      .small { font: 400 16px "Segoe UI", Arial, sans-serif; fill: #53645e; }
+      .num { font: 800 16px "Segoe UI", Arial, sans-serif; fill: #ffffff; }
+      .caption { font: 600 18px "Segoe UI", Arial, sans-serif; fill: #d79b55; letter-spacing: .06em; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="100" r="160" fill="#ffffff" opacity=".45"/>
+  <circle cx="140" cy="520" r="210" fill="#dcebe4" opacity=".55"/>
+
+  <text x="82" y="86" class="caption">ENTERPRISE AI AND SYSTEMS THINKING</text>
+  <text x="82" y="148" class="title">The Workflow Governance Layer</text>
+  <text x="82" y="188" class="subtitle">When AI enters SAP workflows, governance has to appear where work is done.</text>
+
+  <line x1="110" y1="354" x2="1090" y2="354" stroke="url(#accent)" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+
+  <g filter="url(#shadow)">
+    <rect x="78" y="260" width="192" height="188" rx="24" fill="#ffffff"/>
+    <rect x="304" y="260" width="192" height="188" rx="24" fill="#ffffff"/>
+    <rect x="530" y="260" width="192" height="188" rx="24" fill="#ffffff"/>
+    <rect x="756" y="260" width="192" height="188" rx="24" fill="#ffffff"/>
+    <rect x="982" y="260" width="140" height="188" rx="24" fill="#ffffff"/>
+  </g>
+
+  <g>
+    <circle cx="174" cy="260" r="24" fill="#17483f"/>
+    <text x="169" y="266" class="num">1</text>
+    <text x="110" y="316" class="label">Context</text>
+    <text x="110" y="351" class="small">Data quality</text>
+    <text x="110" y="376" class="small">permissions</text>
+    <text x="110" y="401" class="small">process limits</text>
+
+    <circle cx="400" cy="260" r="24" fill="#17483f"/>
+    <text x="395" y="266" class="num">2</text>
+    <text x="336" y="316" class="label">Evidence</text>
+    <text x="336" y="351" class="small">Why this</text>
+    <text x="336" y="376" class="small">suggestion?</text>
+    <text x="336" y="401" class="small">What is uncertain?</text>
+
+    <circle cx="626" cy="260" r="24" fill="#17483f"/>
+    <text x="621" y="266" class="num">3</text>
+    <text x="562" y="316" class="label">Guardrails</text>
+    <text x="562" y="351" class="small">Human review</text>
+    <text x="562" y="376" class="small">approval paths</text>
+    <text x="562" y="401" class="small">allowed actions</text>
+
+    <circle cx="852" cy="260" r="24" fill="#17483f"/>
+    <text x="847" y="266" class="num">4</text>
+    <text x="788" y="316" class="label">Traceability</text>
+    <text x="788" y="351" class="small">Accepted?</text>
+    <text x="788" y="376" class="small">rejected?</text>
+    <text x="788" y="401" class="small">overridden?</text>
+
+    <circle cx="1052" cy="260" r="24" fill="#17483f"/>
+    <text x="1047" y="266" class="num">5</text>
+    <text x="1014" y="316" class="label">Learning</text>
+    <text x="1014" y="351" class="small">Outcomes</text>
+    <text x="1014" y="376" class="small">feedback</text>
+    <text x="1014" y="401" class="small">correction</text>
+  </g>
+
+  <rect x="82" y="512" width="1036" height="54" rx="27" fill="#173f37"/>
+  <text x="123" y="546" style="font: 600 21px 'Segoe UI', Arial, sans-serif; fill: #fff;">AI output becomes useful when people can understand it, challenge it and act responsibly.</text>
+</svg>
