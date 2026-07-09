@@ -18,8 +18,6 @@ date: 2026-07-06
   <figcaption>Data systems increasingly support the full path from reliable records to accountable decisions and learning.</figcaption>
 </figure>
 
-> **Watch the short reflection:** [From Data Processing to Decision Intelligence](https://youtube.com/shorts/xoCfk71Rtwg) — an 89-second companion video narrated in my own voice.
-
 When I began working with data systems, nobody around me called the work “decision intelligence.”
 
 The job was more immediate. Write the program. Structure the records. Move the data from one place to another. Make sure the process completed, the numbers reconciled and the information was still there when someone needed it.

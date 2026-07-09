@@ -337,8 +337,6 @@ blockquote p { max-width: 900px; margin: 0; font-family: Georgia, serif; font-si
 .insight-card.featured p:not(.card-type) { color: rgba(255,255,255,.72); }
 .insight-card a { margin-top: auto; color: var(--accent); font-weight: 800; }
 .insight-card.featured a { color: #f0d7ae; }
-.card-actions { margin-top: auto; display: flex; flex-wrap: wrap; gap: .65rem 1.25rem; }
-.card-actions a { margin-top: 0; }
 
 .evidence-list { border-top: 1px solid var(--line); }
 .evidence-list a {
