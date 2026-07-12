@@ -470,10 +470,61 @@ footer {
 .article-author p { max-width: 660px; color: var(--ink-soft); }
 .article-author a { color: var(--accent); font-weight: 800; }
 
+.official-profile-section {
+  padding-top: clamp(3rem, 7vw, 5.5rem);
+}
+
+.profile-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  background: #fffdf8;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: 0 24px 70px rgba(21,35,31,.08);
+}
+
+.profile-copy h1 {
+  max-width: 760px;
+  margin: .6rem 0 0;
+  font-size: clamp(3.2rem, 7vw, 6.4rem);
+  line-height: .95;
+}
+
+.profile-copy .hero-copy {
+  max-width: 720px;
+}
+
+.profile-photo-card {
+  width: min(100%, 320px);
+  margin: 0;
+  justify-self: end;
+}
+
+.profile-photo-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(15,107,85,.2);
+  border-radius: 24px;
+  box-shadow: 0 18px 45px rgba(21,35,31,.14);
+}
+
+.profile-photo-card figcaption {
+  margin-top: .75rem;
+  color: var(--ink-soft);
+  font-size: .82rem;
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   .site-header { min-height: 76px; }
   nav { display: none; }
   .hero-grid, .pillars, .card-grid { grid-template-columns: 1fr; }
+  .profile-panel { grid-template-columns: 1fr; }
+  .profile-photo-card { justify-self: start; max-width: 240px; }
   .system-visual { width: min(86vw, 340px); margin-top: 1.5rem; }
   .proof-line { grid-template-columns: 1fr; gap: 1rem; }
   .proof-line div, .proof-line div + div { padding: 0 0 1rem; border-left: 0; border-bottom: 1px solid var(--line); }
