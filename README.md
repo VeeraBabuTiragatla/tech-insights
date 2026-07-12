@@ -1,12 +1,14 @@
 # Veera Babu Tiragatla — Tech Insights
 
-The source for [veerababutiragatla.com](https://www.veerababutiragatla.com): practical insights on enterprise data systems, SAP transformation, Microsoft Fabric, artificial intelligence and human understanding.
+The source for [veerababutiragatla.com](https://www.veerababutiragatla.com): hands-on reflections on enterprise data systems, SAP transformation, Microsoft Fabric, artificial intelligence and human understanding.
 
 ## Positioning
 
 **Where technology meets human understanding.**
 
 Veera Babu Tiragatla draws on approximately 25 years in information technology—from programmed data processing and relational databases to SAP HANA, modern analytics and AI.
+
+Current positioning: Senior IT Consultant and Enterprise Data Architect, Melbourne, Australia.
 
 ## Published insights
 
