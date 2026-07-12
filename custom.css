@@ -475,10 +475,8 @@ footer {
 }
 
 .profile-panel {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
-  align-items: center;
-  gap: clamp(2rem, 6vw, 5rem);
+  max-width: 980px;
+  margin: 0 auto;
   padding: clamp(1.5rem, 4vw, 3rem);
   background: #fffdf8;
   border: 1px solid var(--line);
@@ -486,11 +484,25 @@ footer {
   box-shadow: 0 24px 70px rgba(21,35,31,.08);
 }
 
+.profile-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 160px;
+  align-items: start;
+  gap: clamp(1.5rem, 5vw, 3rem);
+}
+
 .profile-copy h1 {
   max-width: 760px;
   margin: .6rem 0 0;
-  font-size: clamp(3.2rem, 7vw, 6.4rem);
+  font-size: clamp(2.8rem, 6vw, 5.2rem);
   line-height: .95;
+}
+
+.profile-subtitle {
+  margin: 1.2rem 0 0;
+  color: var(--ink-soft);
+  font-family: Georgia, serif;
+  font-size: clamp(1.15rem, 2.2vw, 1.55rem);
 }
 
 .profile-copy .hero-copy {
@@ -498,7 +510,7 @@ footer {
 }
 
 .profile-photo-card {
-  width: min(100%, 320px);
+  width: 160px;
   margin: 0;
   justify-self: end;
 }
@@ -512,19 +524,38 @@ footer {
   box-shadow: 0 18px 45px rgba(21,35,31,.14);
 }
 
-.profile-photo-card figcaption {
-  margin-top: .75rem;
-  color: var(--ink-soft);
-  font-size: .82rem;
-  text-align: center;
+.profile-essay {
+  max-width: 820px;
+  margin-top: clamp(2rem, 5vw, 3.5rem);
+}
+
+.profile-essay p {
+  margin: 1.15rem 0 0;
+  color: #33433d;
+  font-size: clamp(1.05rem, 1.7vw, 1.18rem);
+  line-height: 1.75;
+}
+
+.profile-essay p:nth-child(3) {
+  color: var(--accent);
+  font-family: Georgia, serif;
+  font-size: clamp(1.35rem, 2.4vw, 1.8rem);
+}
+
+.profile-signoff {
+  margin-top: 2rem !important;
+  color: var(--ink) !important;
+  font-family: Georgia, serif;
+  font-size: clamp(1.35rem, 2.5vw, 1.9rem) !important;
+  line-height: 1.35 !important;
 }
 
 @media (max-width: 800px) {
   .site-header { min-height: 76px; }
   nav { display: none; }
   .hero-grid, .pillars, .card-grid { grid-template-columns: 1fr; }
-  .profile-panel { grid-template-columns: 1fr; }
-  .profile-photo-card { justify-self: start; max-width: 240px; }
+  .profile-intro { grid-template-columns: 1fr; }
+  .profile-photo-card { justify-self: start; width: 140px; }
   .system-visual { width: min(86vw, 340px); margin-top: 1.5rem; }
   .proof-line { grid-template-columns: 1fr; gap: 1rem; }
   .proof-line div, .proof-line div + div { padding: 0 0 1rem; border-left: 0; border-bottom: 1px solid var(--line); }
