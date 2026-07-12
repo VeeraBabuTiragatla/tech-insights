@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.veerababutiragatla.com/</loc>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/veera-babu-tiragatla-brand-card.png</image:loc>
+      <image:title>Veera Babu Tiragatla</image:title>
+      <image:caption>Veera Babu Tiragatla - Senior IT Consultant and Enterprise Data Architect</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/veera-babu-tiragatla-official-portrait.jpg</image:loc>
+      <image:title>Veera Babu Tiragatla official portrait</image:title>
+      <image:caption>Official profile image of Veera Babu Tiragatla</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.veerababutiragatla.com/official-profile/</loc>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/veera-babu-tiragatla-official-portrait.jpg</image:loc>
+      <image:title>Veera Babu Tiragatla official profile</image:title>
+      <image:caption>Veera Babu Tiragatla - Senior IT Consultant and Enterprise Data Architect, Melbourne, Australia</image:caption>
+    </image:image>
+  </url>
+</urlset>
