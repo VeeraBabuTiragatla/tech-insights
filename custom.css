@@ -747,3 +747,415 @@ footer {
   .channel-grid a, .channel-grid a + a { min-height: 245px; border-left: 0; }
   footer { flex-direction: column; gap: .25rem; }
 }
+
+/* Enterprise Field Notes homepage direction */
+:root {
+  --paper: #f7f1e8;
+  --paper-soft: #fbf8f1;
+  --surface: #f2ece2;
+  --ink: #202420;
+  --ink-soft: #606960;
+  --line: #d7cfc0;
+  --accent: #32595e;
+  --accent-dark: #223f43;
+  --warm: #a46c3f;
+  --max: 1180px;
+}
+
+body {
+  background:
+    linear-gradient(90deg, rgba(50,89,94,.045) 1px, transparent 1px) 0 0 / 42px 42px,
+    linear-gradient(0deg, rgba(50,89,94,.035) 1px, transparent 1px) 0 0 / 42px 42px,
+    var(--paper);
+}
+
+.field-shell {
+  width: min(calc(100% - 4rem), var(--max));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 230px minmax(0, 1fr);
+  gap: clamp(3rem, 6vw, 5rem);
+}
+
+.field-rail {
+  min-height: 100vh;
+  padding: 3.6rem 0 3rem;
+  border-right: 1px solid var(--line);
+  position: sticky;
+  top: 0;
+  align-self: start;
+}
+
+.rail-mark {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  color: var(--paper-soft);
+  background: var(--ink);
+  border-radius: 50%;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.rail-name {
+  display: block;
+  max-width: 170px;
+  margin: 2.1rem 0 0;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.38rem;
+  line-height: 1.04;
+  letter-spacing: -.02em;
+  text-decoration: none;
+}
+
+.field-rail p {
+  max-width: 180px;
+  margin: 2rem 0 2.6rem;
+  color: var(--ink-soft);
+  font-size: .88rem;
+  line-height: 1.58;
+}
+
+.field-rail nav {
+  display: grid;
+  gap: .6rem;
+}
+
+.field-rail nav a {
+  color: var(--ink-soft);
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.field-rail nav a:hover,
+.field-rail nav a:focus {
+  color: var(--accent);
+}
+
+.rail-meta {
+  max-width: 180px;
+  margin-top: 3.1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: .76rem;
+  line-height: 1.65;
+}
+
+.field-main {
+  min-width: 0;
+}
+
+.field-hero {
+  padding: clamp(4.5rem, 8vw, 6.7rem) 0 clamp(3.8rem, 7vw, 5.5rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.field-hero-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 140px;
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.field-hero .eyebrow,
+.section .eyebrow {
+  color: var(--warm);
+}
+
+.field-hero h1 {
+  max-width: 840px;
+  font-size: clamp(2.65rem, 5.6vw, 4.4rem);
+  line-height: 1.04;
+}
+
+.field-hero h1 em {
+  color: var(--accent);
+  font-style: normal;
+}
+
+.field-portrait {
+  margin: 0;
+  justify-self: end;
+}
+
+.field-portrait img {
+  display: block;
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(40,35,28,.11);
+}
+
+.field-portrait figcaption {
+  margin-top: .75rem;
+  color: var(--ink-soft);
+  font-size: .72rem;
+  text-align: center;
+}
+
+.field-hero .hero-copy {
+  max-width: 820px;
+  margin: 2rem 0 0;
+  color: #414a42;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.1rem, 2vw, 1.38rem);
+  line-height: 1.65;
+}
+
+.field-latest {
+  margin-top: clamp(3.3rem, 6vw, 4.5rem);
+}
+
+.field-latest-note {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+  margin-bottom: 1.5rem;
+}
+
+.field-latest-note span {
+  color: var(--warm);
+  font-size: .74rem;
+  font-weight: 850;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.field-latest-note p {
+  max-width: 820px;
+  margin: -.2rem 0 0;
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 2.9vw, 2.15rem);
+  line-height: 1.17;
+}
+
+.field-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: clamp(1.5rem, 4vw, 3.2rem);
+  align-items: center;
+  padding: clamp(1.35rem, 3vw, 2rem);
+  color: var(--ink);
+  background: rgba(251,248,241,.74);
+  border: 1px solid var(--line);
+  text-decoration: none;
+}
+
+.field-feature:hover h2,
+.field-feature:focus h2 {
+  color: var(--accent);
+}
+
+.field-feature h2 {
+  margin: 0;
+  font-size: clamp(1.55rem, 3vw, 2.2rem);
+  line-height: 1.08;
+}
+
+.field-feature p {
+  max-width: 600px;
+  margin: 1rem 0 0;
+  color: var(--ink-soft);
+  font-weight: 700;
+}
+
+.authority-sketch {
+  display: grid;
+  gap: .4rem;
+  padding: 1rem;
+  background:
+    linear-gradient(90deg, rgba(50,89,94,.07) 1px, transparent 1px) 0 0 / 28px 28px,
+    linear-gradient(0deg, rgba(50,89,94,.055) 1px, transparent 1px) 0 0 / 28px 28px,
+    var(--paper);
+  border: 1px solid var(--line);
+}
+
+.authority-sketch span {
+  padding: .35rem .6rem .35rem .8rem;
+  color: #2f3934;
+  background: rgba(251,248,241,.68);
+  border-left: 4px solid var(--accent);
+  font-family: Consolas, "Courier New", monospace;
+  font-size: .78rem;
+}
+
+.field-main .section {
+  width: 100%;
+  padding: clamp(3.6rem, 7vw, 5.5rem) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.field-main .section-heading {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 2rem;
+  max-width: none;
+  margin-bottom: 2.6rem;
+}
+
+.field-main .section-heading h2 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+}
+
+.field-main .split-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+}
+
+.field-main .split-heading > div {
+  min-width: 0;
+}
+
+.field-main .muted-section,
+.field-main .channel-section {
+  width: 100%;
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+}
+
+.field-main .card-grid {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--line);
+}
+
+.field-main .insight-card {
+  min-height: 0;
+  padding: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 155px minmax(0, 1fr);
+  gap: 1.5rem;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.field-main .insight-card.featured {
+  color: var(--ink);
+  background: transparent;
+  border-color: var(--line);
+}
+
+.field-main .card-type {
+  margin: .35rem 0 0;
+  color: var(--warm);
+}
+
+.field-main .insight-card h3 {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem);
+}
+
+.field-main .insight-card p:not(.card-type) {
+  grid-column: 2;
+  margin: .7rem 0 0;
+}
+
+.field-main .insight-card.featured p:not(.card-type) {
+  color: var(--ink-soft);
+}
+
+.field-main .insight-card a {
+  grid-column: 2;
+  margin-top: .85rem;
+}
+
+.field-main blockquote {
+  background: rgba(251,248,241,.7);
+  border-left: 4px solid var(--warm);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.field-main .pillars,
+.field-main .journey-line,
+.field-main .channel-grid {
+  background: transparent;
+}
+
+.field-main .channel-grid a {
+  min-height: 260px;
+}
+
+.field-shell footer {
+  grid-column: 2;
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 1px solid var(--line);
+  background: transparent;
+}
+
+@media (max-width: 920px) {
+  .field-shell {
+    width: min(calc(100% - 2rem), var(--max));
+    display: block;
+  }
+
+  .field-rail {
+    min-height: 0;
+    padding: 1.4rem 0 1.2rem;
+    position: static;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .field-rail p,
+  .rail-meta {
+    display: none;
+  }
+
+  .field-rail nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem 1.2rem;
+    margin-top: 1rem;
+  }
+
+  .rail-name {
+    display: inline-block;
+    margin: 0 0 0 .8rem;
+    vertical-align: middle;
+    font-size: 1.1rem;
+  }
+
+  .rail-mark {
+    display: inline-grid;
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+  }
+
+  .field-hero-top,
+  .field-feature,
+  .field-latest-note,
+  .field-main .section-heading,
+  .field-main .insight-card {
+    grid-template-columns: 1fr;
+  }
+
+  .field-portrait {
+    justify-self: start;
+  }
+
+  .field-main .insight-card h3,
+  .field-main .insight-card p:not(.card-type),
+  .field-main .insight-card a {
+    grid-column: auto;
+  }
+
+  .field-shell footer {
+    grid-column: auto;
+  }
+}
