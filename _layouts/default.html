@@ -24,7 +24,54 @@
   <meta name="twitter:image" content="{{ page.image | default: '/assets/images/veera-babu-tiragatla-brand-card.png' | absolute_url }}">
   <meta name="twitter:image:alt" content="{{ page.title | escape }}">
   <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
-  <link rel="stylesheet" href="{{ '/custom.css' | relative_url }}?v=20260712-profile-note">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.veerababutiragatla.com/#person",
+        "name": "Veera Babu Tiragatla",
+        "alternateName": ["T Veera Babu", "Veera Babu", "Veera Tiragatla"],
+        "url": "https://www.veerababutiragatla.com/",
+        "image": "https://www.veerababutiragatla.com/assets/images/veera-babu-tiragatla-official-portrait.jpg",
+        "jobTitle": "Senior IT Consultant and Enterprise Data Architect",
+        "homeLocation": {"@type": "Place", "name": "Melbourne, Australia"},
+        "knowsAbout": [
+          "SAP HANA",
+          "Microsoft Fabric",
+          "Enterprise Data Architecture",
+          "Decision Intelligence",
+          "Enterprise AI Governance",
+          "Systems Thinking",
+          "Human Understanding"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/veerababutiragatla/",
+          "https://medium.com/@TVBabu",
+          "https://github.com/VeeraBabuTiragatla",
+          "https://orcid.org/0009-0000-7088-0144",
+          "https://www.researchgate.net/profile/Veera-Babu-Tiragatla",
+          "https://www.youtube.com/@VeeraBabuTiragatla"
+        ]
+      },
+      {
+        "@type": "BlogPosting",
+        "@id": "{{ page.url | absolute_url }}#article",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "{{ page.url | absolute_url }}"},
+        "headline": {{ page.title | jsonify }},
+        "description": {{ page.description | default: site.description | jsonify }},
+        "image": "{{ page.image | default: '/assets/images/veera-babu-tiragatla-brand-card.png' | absolute_url }}",
+        "author": {"@id": "https://www.veerababutiragatla.com/#person"},
+        "publisher": {"@id": "https://www.veerababutiragatla.com/#person"},
+        "datePublished": "{{ page.date | default: site.time | date_to_xmlschema }}",
+        "dateModified": "{{ page.last_modified_at | default: site.time | date_to_xmlschema }}",
+        "inLanguage": "en-AU"
+      }
+    ]
+  }
+  </script>
+  <link rel="stylesheet" href="{{ '/custom.css' | relative_url }}?v=20260722-entity-pack">
 </head>
 <body class="article-page">
   <a class="skip-link" href="#article">Skip to article</a>
@@ -36,6 +83,7 @@
     <nav aria-label="Primary navigation">
       <a href="{{ '/' | relative_url }}#journey">Journey</a>
       <a href="{{ '/' | relative_url }}#insights">Insights</a>
+      <a href="{{ '/signature-ideas/' | relative_url }}">Ideas</a>
       <a href="{{ '/' | relative_url }}#projects">Projects</a>
       <a href="{{ '/' | relative_url }}#connect">Connect</a>
     </nav>
@@ -49,7 +97,7 @@
       <img src="{{ '/assets/images/veera-babu-tiragatla.jpg' | relative_url }}" width="72" height="72" alt="Veera Babu Tiragatla">
       <div>
         <p>Written by <strong>Veera Babu Tiragatla</strong>, exploring enterprise systems, AI and the human understanding behind better decisions.</p>
-        <a href="{{ '/' | relative_url }}#insights">Explore more insights →</a>
+        <a href="{{ '/official-profile/' | relative_url }}">View official profile →</a>
       </div>
     </aside>
   </main>

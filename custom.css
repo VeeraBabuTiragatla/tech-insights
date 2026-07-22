@@ -394,6 +394,135 @@ blockquote p { max-width: 900px; margin: 0; color: var(--ink) !important; font-f
 .channel-principle { margin: 2rem 0 0; text-align: center; color: var(--ink-soft); }
 .channel-principle strong { color: var(--ink); }
 
+.signature-section {
+  padding-top: clamp(3.5rem, 7vw, 5rem);
+}
+
+.signature-strip,
+.idea-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-top: 2rem;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--line);
+}
+
+.signature-strip article,
+.idea-grid article {
+  padding: clamp(1.4rem, 3vw, 2rem);
+  background: #fffdf8;
+}
+
+.signature-strip span,
+.idea-grid span,
+.bio-blocks span {
+  color: var(--warm);
+  font-size: .72rem;
+  font-weight: 850;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.signature-strip h3,
+.idea-grid h3 {
+  margin: .85rem 0 .65rem;
+  font-family: Georgia, serif;
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.signature-strip p,
+.idea-grid p {
+  color: var(--ink-soft);
+  font-size: .95rem;
+}
+
+.idea-hero .hero-grid {
+  align-items: stretch;
+}
+
+.idea-card-large {
+  min-height: 420px;
+  padding: clamp(2rem, 4vw, 3rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 1px solid var(--line);
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(15,107,85,.12), transparent 30%),
+    linear-gradient(145deg, #fffdf8, #eef7f3);
+  box-shadow: 0 24px 70px rgba(21,35,31,.08);
+}
+
+.idea-card-large span {
+  color: var(--accent);
+  font-size: .74rem;
+  font-weight: 850;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.idea-card-large strong {
+  max-width: 420px;
+  margin-top: 1rem;
+  color: var(--ink);
+  font-family: Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 500;
+  line-height: .98;
+}
+
+.idea-card-large p {
+  max-width: 420px;
+  color: var(--ink-soft);
+}
+
+.bio-blocks {
+  display: grid;
+  gap: 1px;
+  margin-top: clamp(2rem, 5vw, 3rem);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--line);
+}
+
+.bio-blocks article {
+  padding: clamp(1.2rem, 3vw, 1.8rem);
+  background: #fffdf8;
+}
+
+.bio-blocks p {
+  max-width: 780px;
+  margin: .6rem 0 0;
+  color: #33433d;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.press-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .85rem;
+  margin-top: 2rem;
+}
+
+.press-links a {
+  padding: .75rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent);
+  background: white;
+  font-size: .86rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .connect-section {
   padding: clamp(4.5rem, 10vw, 8rem) max(1.5rem, calc((100vw - var(--max)) / 2));
   color: white;
@@ -563,7 +692,7 @@ footer {
 @media (max-width: 800px) {
   .site-header { min-height: 76px; }
   nav { display: none; }
-  .hero-grid, .pillars, .card-grid { grid-template-columns: 1fr; }
+  .hero-grid, .pillars, .card-grid, .signature-strip, .idea-grid { grid-template-columns: 1fr; }
   .profile-intro { grid-template-columns: 1fr; }
   .profile-photo-card { justify-self: start; width: 140px; }
   .system-visual { width: min(86vw, 340px); margin-top: 1.5rem; }
