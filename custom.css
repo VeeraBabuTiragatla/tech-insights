@@ -113,7 +113,7 @@ h1, h2 {
 h1 {
   max-width: 920px;
   margin: 0;
-  font-size: clamp(3.2rem, 7vw, 6.5rem);
+  font-size: clamp(2.15rem, 4.6vw, 3.85rem);
 }
 
 h1 em { color: var(--accent); font-weight: 500; }
@@ -238,7 +238,7 @@ h1 em { color: var(--accent); font-weight: 500; }
   background: var(--accent-dark);
   text-align: center;
   font-family: Georgia, serif;
-  font-size: clamp(1.55rem, 4vw, 2.4rem);
+  font-size: clamp(1.35rem, 3vw, 2rem);
 }
 
 .statement p { display: inline; margin: 0; opacity: .7; }
@@ -251,7 +251,7 @@ h1 em { color: var(--accent); font-weight: 500; }
 }
 
 .section-heading { max-width: 800px; margin-bottom: 3rem; }
-.section-heading h2 { margin: 0; font-size: clamp(2.25rem, 5vw, 4.25rem); }
+.section-heading h2 { margin: 0; font-size: clamp(1.7rem, 3.2vw, 2.65rem); }
 
 .journey-section { padding-bottom: 3.5rem; }
 
@@ -445,6 +445,13 @@ blockquote p { max-width: 900px; margin: 0; color: var(--ink) !important; font-f
   align-items: stretch;
 }
 
+.idea-hero h1 {
+  max-width: 760px;
+  font-size: clamp(1.85rem, 3.4vw, 2.75rem);
+  line-height: 1.14;
+  letter-spacing: -.02em;
+}
+
 .idea-card-large {
   min-height: 420px;
   padding: clamp(2rem, 4vw, 3rem);
@@ -472,9 +479,9 @@ blockquote p { max-width: 900px; margin: 0; color: var(--ink) !important; font-f
   margin-top: 1rem;
   color: var(--ink);
   font-family: Georgia, serif;
-  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-size: clamp(1.55rem, 3vw, 2.45rem);
   font-weight: 500;
-  line-height: .98;
+  line-height: 1.08;
 }
 
 .idea-card-large p {
@@ -528,7 +535,7 @@ blockquote p { max-width: 900px; margin: 0; color: var(--ink) !important; font-f
   color: white;
   background: var(--ink);
 }
-.connect-section h2 { max-width: 850px; margin: 0; font-size: clamp(2.3rem, 5vw, 4.6rem); }
+.connect-section h2 { max-width: 850px; margin: 0; font-size: clamp(1.8rem, 3.8vw, 3.15rem); }
 .connect-section > p:not(.eyebrow) { color: rgba(255,255,255,.7); }
 .social-links { display: flex; flex-wrap: wrap; gap: 1rem 1.6rem; margin-top: 2rem; }
 .social-links a { color: #f0d7ae; font-weight: 750; }
@@ -536,10 +543,27 @@ blockquote p { max-width: 900px; margin: 0; color: var(--ink) !important; font-f
 footer {
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
   padding: 1.5rem max(1.5rem, calc((100vw - var(--max)) / 2));
   color: var(--ink-soft);
   background: var(--paper);
   font-size: .82rem;
+}
+
+.footer-reference {
+  display: inline-flex;
+  gap: .9rem;
+}
+
+.footer-reference a {
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+.footer-reference a:hover,
+.footer-reference a:focus {
+  color: var(--accent);
 }
 
 .article-shell {
@@ -550,7 +574,7 @@ footer {
 
 .article-content > h1:first-of-type {
   margin: 0 0 2rem;
-  font-size: clamp(2.7rem, 6vw, 4.8rem);
+  font-size: clamp(2rem, 4.6vw, 3.55rem);
 }
 
 .article-deck {
@@ -585,7 +609,7 @@ footer {
   box-shadow: 0 24px 70px rgba(21,35,31,.10);
 }
 
-.article-content h2 { margin: 2.7rem 0 1rem; font-size: clamp(1.8rem, 4vw, 2.6rem); }
+.article-content h2 { margin: 2.7rem 0 1rem; font-size: clamp(1.55rem, 3.2vw, 2.15rem); }
 .article-content h3 { margin-top: 2rem; font-size: 1.25rem; }
 .article-content p, .article-content li { color: #33433d; font-size: 1.06rem; }
 .article-content img { width: 100%; height: auto; margin: 1rem 0 2.5rem; border-radius: 4px; }
@@ -633,8 +657,8 @@ footer {
 .profile-copy h1 {
   max-width: 760px;
   margin: .6rem 0 0;
-  font-size: clamp(2.8rem, 6vw, 5.2rem);
-  line-height: .95;
+  font-size: clamp(1.9rem, 3.4vw, 2.85rem);
+  line-height: 1.05;
 }
 
 .profile-subtitle {
@@ -713,7 +737,7 @@ footer {
 @media (max-width: 520px) {
   .site-header, .hero, .section { width: min(calc(100% - 2rem), var(--max)); }
   .hero { padding-top: 4rem; }
-  h1 { font-size: clamp(2.8rem, 14vw, 4.3rem); }
+  h1 { font-size: clamp(2.15rem, 10vw, 3.25rem); }
   .identity-chip { border-radius: 24px; }
   .statement p, .statement strong { display: block; margin: 0; }
   .journey-line { grid-template-columns: 1fr; }
