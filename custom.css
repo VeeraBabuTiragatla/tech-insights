@@ -445,6 +445,16 @@ footer {
 .article-figure { margin: 2rem 0 3rem; }
 .article-figure img { margin: 0; border: 1px solid var(--line); }
 .article-figure figcaption { margin-top: .75rem; color: var(--ink-soft); font-size: .82rem; }
+.article-figure-wide {
+  width: min(calc(100vw - 3rem), 1180px);
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.article-figure-wide img {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 24px 70px rgba(21,35,31,.10);
+}
 
 .article-content h2 { margin: 2.7rem 0 1rem; font-size: clamp(1.8rem, 4vw, 2.6rem); }
 .article-content h3 { margin-top: 2rem; font-size: 1.25rem; }

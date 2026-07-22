@@ -22,4 +22,17 @@
       <image:caption>Veera Babu Tiragatla - Senior IT Consultant and Enterprise Data Architect, Melbourne, Australia</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://www.veerababutiragatla.com/the-machine-can-recommend-the-architecture-must-answer/</loc>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/machine-can-recommend-architecture-must-answer.png</image:loc>
+      <image:title>The Machine Can Recommend. The Architecture Must Answer.</image:title>
+      <image:caption>Enterprise AI architecture flow showing recommendation, authority, decision and learning feedback.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/machine-can-recommend-architecture-must-answer-og.png</image:loc>
+      <image:title>The Machine Can Recommend. The Architecture Must Answer. social preview</image:title>
+      <image:caption>Social preview image for Veera Babu Tiragatla's essay on enterprise AI and algorithmic delegation.</image:caption>
+    </image:image>
+  </url>
 </urlset>
