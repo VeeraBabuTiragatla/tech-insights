@@ -338,7 +338,7 @@ blockquote p { max-width: 900px; margin: 0; color: var(--ink) !important; font-f
 .insight-card p:not(.card-type) { color: var(--ink-soft); }
 .insight-card.featured p:not(.card-type) { color: rgba(255,255,255,.72); }
 .insight-card a { margin-top: auto; color: var(--accent); font-weight: 800; }
-.insight-card.featured a { color: #f0d7ae; }
+.insight-card.featured a { color: #ffffff; }
 
 .evidence-list { border-top: 1px solid var(--line); }
 .evidence-list a {
@@ -602,6 +602,10 @@ footer {
   width: min(calc(100vw - 3rem), 1180px);
   margin-left: 50%;
   transform: translateX(-50%);
+  padding: 1rem;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 18px;
 }
 .article-figure-wide img {
   width: 100%;
@@ -868,8 +872,8 @@ body {
 
 .field-hero h1 {
   max-width: 840px;
-  font-size: clamp(2.65rem, 5.6vw, 4.4rem);
-  line-height: 1.04;
+  font-size: clamp(2.2rem, 4.4vw, 3.55rem);
+  line-height: 1.06;
 }
 
 .field-hero h1 em {
@@ -892,19 +896,12 @@ body {
   box-shadow: 0 18px 45px rgba(40,35,28,.11);
 }
 
-.field-portrait figcaption {
-  margin-top: .75rem;
-  color: var(--ink-soft);
-  font-size: .72rem;
-  text-align: center;
-}
-
 .field-hero .hero-copy {
   max-width: 820px;
   margin: 2rem 0 0;
   color: #414a42;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.1rem, 2vw, 1.38rem);
+  font-size: clamp(1rem, 1.7vw, 1.2rem);
   line-height: 1.65;
 }
 
