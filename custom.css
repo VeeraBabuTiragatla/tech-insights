@@ -602,8 +602,8 @@ footer {
   width: min(calc(100vw - 3rem), 1180px);
   margin-left: 50%;
   transform: translateX(-50%);
-  padding: .9rem;
-  background: var(--paper-soft);
+  padding: 1rem;
+  background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 18px;
 }
@@ -941,7 +941,7 @@ body {
   align-items: center;
   padding: clamp(1.35rem, 3vw, 2rem);
   color: var(--ink);
-  background: rgba(251,248,241,.94);
+  background: rgba(251,248,241,.74);
   border: 1px solid var(--line);
   text-decoration: none;
 }
