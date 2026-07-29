@@ -6,7 +6,7 @@ The source for [veerababutiragatla.com](https://www.veerababutiragatla.com): han
 
 **Where technology meets human understanding.**
 
-Veera Babu Tiragatla draws on approximately 25 years in information technology—from programmed data processing and relational databases to SAP HANA, modern analytics and AI.
+Veera Babu Tiragatla draws on more than 20 years of combined experience: 15+ years in IT and consulting, complemented by 5+ years across research, education and corporate training.
 
 Current positioning: Senior IT Consultant and Enterprise Data Architect, Melbourne, Australia.
 

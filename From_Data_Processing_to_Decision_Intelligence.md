@@ -9,7 +9,7 @@ date: 2026-07-06
 
 # From Data Processing to Decision Intelligence
 
-<p class="article-deck">What changed across twenty-five years of data systems—and what did not</p>
+<p class="article-deck">What changed across more than twenty years of data systems—and what did not</p>
 
 <p class="article-meta">Veera Babu Tiragatla · 9 minute read</p>
 
@@ -200,7 +200,7 @@ If these questions cannot be answered, the programme may still produce an impres
 
 ## The next stage of the journey
 
-What stays with me after twenty-five years is not simply how much the technology changed. It is how often the hardest question appeared after the technical work succeeded.
+What stays with me after more than twenty years of combined experience is not simply how much the technology changed. It is how often the hardest question appeared after the technical work succeeded.
 
 The code ran. The pipeline completed. The dashboard refreshed. Then people had to decide what the information meant and what they were prepared to do about it.
 
