@@ -2,7 +2,7 @@
 layout: default
 title: "Understanding Drift"
 permalink: /understanding-drift/
-description: "Why AI can make us sound smarter than we understand, and why human judgment still depends on building real mental models."
+description: "Why AI can make us sound smarter than we understand, and why human judgement still depends on building real mental models."
 image: /assets/images/understanding-drift-og.png
 date: 2026-07-29
 ---
@@ -434,4 +434,4 @@ But whether we continue to build understanding, rather than merely sound as if w
 
 ## About the author
 
-Veera Babu Tiragatla writes about enterprise systems, AI, and the human side of understanding. His work explores how intelligent systems are changing the way people think, decide, and learn. Understanding Drift is the first essay in The Understanding Project, an ongoing exploration of human understanding in the age of intelligent systems.
+Veera Babu Tiragatla writes about enterprise systems, AI, and the human side of understanding. His work explores how intelligent systems are changing the way people think, decide, and learn. Understanding Drift is the first essay in *The Understanding Project*, an ongoing exploration of human understanding in the age of intelligent systems.
