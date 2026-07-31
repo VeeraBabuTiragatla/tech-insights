@@ -11,7 +11,7 @@ date: 2026-07-29
 
 <p class="article-deck">Why AI Can Make Us Sound Smarter Than We Understand</p>
 
-<p class="article-meta">Veera Babu Tiragatla &middot; 15 minute read</p>
+<p class="article-meta">Veera Babu Tiragatla &middot; 15-minute read</p>
 
 <figure class="article-figure article-figure-wide">
   <img src="/assets/images/understanding-drift-hero.png" alt="Infographic contrasting fluent AI output with real understanding built through mental models, context, judgement, reality checks and consequences">
