@@ -14,7 +14,7 @@ date: 2026-07-29
 <p class="article-meta">Veera Babu Tiragatla &middot; 15 minute read</p>
 
 <figure class="article-figure article-figure-wide">
-  <img src="/assets/images/understanding-drift.png" alt="Understanding Drift infographic contrasting fluent AI output with real understanding built through mental models, context, judgement and reality checks">
+  <img src="/assets/images/understanding-drift-hero.png" alt="Infographic contrasting fluent AI output with real understanding built through mental models, context, judgement, reality checks and consequences">
   <figcaption>The appearance of understanding can sit on top of a deeper gap. The surface looks complete; the reasoning underneath still needs human attention.</figcaption>
 </figure>
 
@@ -210,9 +210,9 @@ The output remains.
 
 The mental model may not.
 
-<figure class="article-figure">
-  <img src="/assets/images/understanding-drift-og.png" alt="Understanding Drift visual showing the gap between polished AI output and genuine human understanding">
-  <figcaption>Fluent output can arrive quickly; durable understanding still depends on mental models, context, judgement and reality checks.</figcaption>
+<figure class="article-figure article-figure-wide">
+  <img src="/assets/images/how-understanding-is-built.png" alt="How Understanding Is Built infographic showing encounter, attention, interpretation, connection, judgement, action, reflection and revision">
+  <figcaption>Understanding develops through a continuing cycle of encounter, attention, interpretation, connection, judgement, action, reflection and revision.</figcaption>
 </figure>
 
 ## The Appearance of Competence
