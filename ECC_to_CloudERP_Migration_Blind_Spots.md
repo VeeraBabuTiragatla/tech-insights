@@ -3,9 +3,10 @@ layout: default
 title: "From ECC to Cloud ERP: The Migration Blind Spots Few Discuss"
 permalink: /ECC_to_CloudERP_Migration_Blind_Spots.html
 description: "The behavioural, data and operational risks that conventional SAP ECC-to-cloud migration plans often miss."
+image: /assets/images/ecc-cloud-migration-og.png
 ---
 
-![ECC to Cloud ERP](/ecc-cloud-blindspots.png)
+![SAP ECC to Cloud ERP migration blind spots across custom code, data meaning and change rhythms](/assets/images/ecc-cloud-migration-og.png)
 
 # From ECC to Cloud ERP: The Migration Blind Spots Few Discuss
 
