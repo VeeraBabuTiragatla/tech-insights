@@ -1067,6 +1067,7 @@ body {
 .field-main .insight-card a {
   grid-column: 2;
   margin-top: .85rem;
+  color: var(--accent);
 }
 
 .field-main blockquote {
