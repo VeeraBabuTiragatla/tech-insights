@@ -11,7 +11,7 @@ date: 2026-07-09
 
 <p class="article-deck">Why enterprise AI cannot be treated as a side experiment once it starts shaping daily decisions</p>
 
-<p class="article-meta">Veera Babu Tiragatla &middot; 8 minute read</p>
+<p class="article-meta">Veera Babu Tiragatla &middot; 8-minute read</p>
 
 <figure class="article-figure">
   <img src="/assets/images/ai-enters-sap-governance-hero.png" alt="A bright enterprise workflow title card for AI governance becoming part of SAP workflow">

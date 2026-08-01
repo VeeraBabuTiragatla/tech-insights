@@ -2,7 +2,7 @@
 layout: default
 title: "From Data Processing to Decision Intelligence"
 permalink: /from-data-processing-to-decision-intelligence/
-description: "A practical reflection on how data systems evolved from recording transactions to supporting decisions—and why meaning, context and human judgment now matter most."
+description: "A practical reflection on how data systems evolved from recording transactions to supporting decisions—and why meaning, context and human judgement now matter most."
 image: /assets/images/data-to-decision-intelligence-og.png
 date: 2026-07-06
 ---
@@ -11,7 +11,7 @@ date: 2026-07-06
 
 <p class="article-deck">What changed across more than twenty years of data systems—and what did not</p>
 
-<p class="article-meta">Veera Babu Tiragatla · 9 minute read</p>
+<p class="article-meta">Veera Babu Tiragatla · 9-minute read</p>
 
 <figure class="article-figure">
   <img src="/assets/images/data-to-decision-intelligence.svg" alt="A six-stage model showing the progression from recording data to learning from decisions">
@@ -138,7 +138,7 @@ This also helps distinguish three related capabilities:
 |---|---|---|
 | Data processing | What happened? | Reliable records and transactions |
 | Business intelligence | What does the available evidence show? | Measures, trends and explanations |
-| Decision intelligence | What choices are available, under which assumptions and consequences? | Options that support accountable judgment |
+| Decision intelligence | What choices are available, under which assumptions and consequences? | Options that support accountable judgement |
 
 The final step is not automatically “the machine decides.” The final step is that the decision becomes better informed, more transparent and easier to examine.
 
@@ -204,7 +204,7 @@ What stays with me after more than twenty years of combined experience is not si
 
 The code ran. The pipeline completed. The dashboard refreshed. Then people had to decide what the information meant and what they were prepared to do about it.
 
-The next stage will bring more capable AI, more natural interaction and systems that participate more directly in everyday work. We will still need sound architecture, reliable data and efficient processing. But those capabilities create value only when people can understand the evidence, examine its assumptions and act with judgment.
+The next stage will bring more capable AI, more natural interaction and systems that participate more directly in everyday work. We will still need sound architecture, reliable data and efficient processing. But those capabilities create value only when people can understand the evidence, examine its assumptions and act with judgement.
 
 For years, we built systems to process data.
 

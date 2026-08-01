@@ -55,7 +55,7 @@ An Intelligent RPA bot solved this by:
 - Pulling data from both sources,
 - Applying robust matching rules,
 - Preparing 80–90% of corrections automatically,
-- Leaving humans with only the judgment-heavy exceptions.
+- Leaving humans with only the judgement-heavy exceptions.
 
 The outcome?
 

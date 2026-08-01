@@ -11,7 +11,7 @@ date: 2026-07-22
 
 <p class="article-deck">How leaders must redesign enterprise architecture for the era of algorithmic delegation</p>
 
-<p class="article-meta">Veera Babu Tiragatla &middot; 16 minute read</p>
+<p class="article-meta">Veera Babu Tiragatla &middot; 16-minute read</p>
 
 <figure class="article-figure article-figure-wide">
   <img src="/assets/images/machine-can-recommend-architecture-must-answer.png" alt="Enterprise AI architecture flow showing context and data foundation, AI recommendation, authority gate, decision and action, and learning feedback loop">
