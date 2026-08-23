@@ -31,6 +31,19 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.veerababutiragatla.com/why-enterprise-ai-is-becoming-harder-to-compare/</loc>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/enterprise-ai-comparison-map.jpg</image:loc>
+      <image:title>Why Enterprise AI Is Becoming Harder to Compare</image:title>
+      <image:caption>Enterprise AI comparison map showing frontier AI labs and enterprise incumbents converging around a shared execution stack.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/enterprise-ai-execution-stack.png</image:loc>
+      <image:title>Two Directions. One Enterprise Execution Stack.</image:title>
+      <image:caption>Enterprise AI execution stack with six capability layers and eight evaluation questions.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.veerababutiragatla.com/the-machine-can-recommend-the-architecture-must-answer/</loc>
     <image:image>
       <image:loc>https://www.veerababutiragatla.com/assets/images/machine-can-recommend-architecture-must-answer.png</image:loc>
