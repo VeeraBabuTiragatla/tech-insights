@@ -5,6 +5,8 @@ permalink: /from-data-processing-to-decision-intelligence/
 description: "A practical reflection on how data systems evolved from recording transactions to supporting decisions—and why meaning, context and human judgement now matter most."
 image: /assets/images/data-to-decision-intelligence-og.png
 date: 2026-07-06
+series: "Enterprise AI & Decision Architecture"
+reading_time: "9-minute read"
 ---
 
 # From Data Processing to Decision Intelligence

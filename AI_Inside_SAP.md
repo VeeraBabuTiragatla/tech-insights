@@ -4,6 +4,9 @@ title: "AI Inside SAP: Where Automation Is Quietly Transforming Operations"
 permalink: /AI_Inside_SAP.html
 description: "A practical look at how AI is reducing friction inside SAP maintenance, reconciliation and planning workflows."
 image: /assets/images/ai-inside-sap-og.png
+date: 2025-11-17
+series: "Enterprise AI & Decision Architecture"
+reading_time: "3-minute read"
 ---
 
 ![AI inside SAP automation across maintenance, reconciliation and planning](/assets/images/ai-inside-sap-og.png)

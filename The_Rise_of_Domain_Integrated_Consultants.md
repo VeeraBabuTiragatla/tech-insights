@@ -4,6 +4,9 @@ title: "The Rise of Domain-Integrated Consultants"
 permalink: /insights/domain-integrated-consultants/
 description: "Why enterprise consulting increasingly requires professionals who can connect technology, operations and business outcomes."
 image: /assets/images/domain-integrated-consultants-og.png
+date: 2025-11-17
+series: "Technology Landscape"
+reading_time: "3-minute read"
 ---
 
 <img src="/assets/images/domain-integrated-consultants-og.png" alt="Domain-integrated consulting connecting business process, industry context and ERP technology" width="100%" />

@@ -5,6 +5,8 @@ permalink: /why-enterprise-ai-is-becoming-harder-to-compare/
 description: "A practical guide to models, agents, MCP, A2A, enterprise context, and the platforms competing around them."
 image: /assets/images/enterprise-ai-comparison-map.jpg
 date: 2026-08-23
+series: "Technology Landscape"
+reading_time: "15-minute read"
 ---
 
 # Why Enterprise AI Is Becoming Harder to Compare

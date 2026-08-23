@@ -1157,3 +1157,160 @@ body {
     grid-column: auto;
   }
 }
+
+/* Editorial streams and complete essay index */
+.section-intro {
+  max-width: 760px;
+  margin: -1rem 0 2rem;
+  color: var(--ink-soft);
+}
+
+.stream-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.stream-card {
+  min-width: 0;
+  padding: 1.6rem;
+  background: rgba(255,255,255,.56);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--accent);
+}
+
+.stream-card.decision-stream { border-top-color: #315c76; }
+.stream-card.understanding-stream { border-top-color: var(--warm); }
+
+.stream-card h3 {
+  margin: .45rem 0 .7rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.stream-card > p:not(.card-type) { color: var(--ink-soft); }
+
+.stream-links {
+  margin: 1.2rem 0;
+  padding: 1rem 0 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.stream-links li + li { margin-top: .65rem; }
+.stream-links a, .stream-more { color: var(--accent-dark); text-underline-offset: 3px; }
+.stream-more { font-weight: 750; }
+
+.essay-index {
+  width: min(calc(100% - 3rem), 1040px);
+  margin: 0 auto;
+}
+
+.essay-index-hero {
+  padding: clamp(4rem, 9vw, 7rem) 0 clamp(3rem, 6vw, 5rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.essay-index-hero h1 {
+  max-width: 850px;
+  margin: .65rem 0 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.5rem, 6vw, 5.3rem);
+  font-weight: 500;
+  line-height: 1.02;
+  letter-spacing: -.035em;
+}
+
+.essay-index-hero > p:not(.eyebrow) {
+  max-width: 720px;
+  color: var(--ink-soft);
+  font-size: 1.12rem;
+}
+
+.stream-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  margin-top: 2rem;
+}
+
+.stream-jump a {
+  padding: .55rem .8rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255,255,255,.55);
+  color: var(--ink);
+  font-size: .82rem;
+  font-weight: 700;
+}
+
+.series-section {
+  scroll-margin-top: 1.5rem;
+  padding: clamp(3.8rem, 8vw, 6.5rem) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.series-heading {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+  gap: .4rem 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.series-heading .card-type { grid-row: 1 / span 2; }
+.series-heading h2 { margin: 0; font-size: clamp(1.7rem, 4vw, 2.75rem); }
+.series-heading > p:last-child { margin: .35rem 0 0; color: var(--ink-soft); }
+
+.essay-list { border-top: 1px solid var(--line); }
+
+.essay-entry {
+  display: grid;
+  grid-template-columns: 170px minmax(0, 1fr);
+  gap: 2rem;
+  padding: 1.65rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.essay-meta {
+  display: flex;
+  flex-direction: column;
+  color: var(--ink-soft);
+  font-size: .8rem;
+  letter-spacing: .02em;
+}
+
+.essay-entry h3 { margin: 0; font-size: clamp(1.25rem, 3vw, 1.65rem); line-height: 1.25; }
+.essay-entry h3 a { text-decoration-thickness: 1px; text-decoration-color: transparent; text-underline-offset: 4px; }
+.essay-entry h3 a:hover, .essay-entry h3 a:focus { color: var(--accent); text-decoration-color: currentColor; }
+.essay-entry p { margin: .55rem 0 0; color: var(--ink-soft); }
+.entry-marker { color: var(--warm) !important; font-size: .74rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.latest-entry { border-left: 3px solid var(--warm); padding-left: 1rem; }
+.series-note { max-width: 700px; margin: 1.4rem 0 0; color: var(--ink-soft); font-style: italic; }
+
+.idea-link {
+  display: inline-block;
+  margin-top: .75rem;
+  color: var(--accent-dark);
+  font-size: .86rem;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.idea-link cite { font-style: normal; }
+.idea-routing { max-width: none; }
+.idea-routing > p:not(.eyebrow) { max-width: 720px; color: var(--ink-soft); }
+
+nav a[aria-current="page"] { color: var(--accent-dark); font-weight: 750; }
+
+@media (max-width: 800px) {
+  .site-header { align-items: flex-start; flex-direction: column; gap: .9rem; padding: 1.1rem 0; }
+  .site-header nav { display: flex; flex-wrap: wrap; gap: .6rem 1rem; }
+  .stream-jump { display: flex; }
+  .stream-grid { grid-template-columns: 1fr; }
+  .essay-index { width: min(calc(100% - 2rem), 1040px); }
+  .series-heading, .essay-entry { grid-template-columns: 1fr; gap: .7rem; }
+  .series-heading .card-type { grid-row: auto; }
+  .essay-meta { flex-direction: row; gap: .75rem; }
+  .latest-entry { padding-left: .8rem; }
+}

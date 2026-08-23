@@ -5,6 +5,8 @@ permalink: /the-machine-can-recommend-the-architecture-must-answer/
 description: "How leaders must redesign enterprise architecture for the era of algorithmic delegation."
 image: /assets/images/machine-can-recommend-architecture-must-answer-og.png
 date: 2026-07-22
+series: "Enterprise AI & Decision Architecture"
+reading_time: "16-minute read"
 ---
 
 # The Machine Can Recommend. The Architecture Must Answer.

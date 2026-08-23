@@ -5,6 +5,8 @@ permalink: /when-ai-enters-sap-governance-becomes-part-of-the-workflow/
 description: "A practical essay on why AI inside SAP workflows requires governance at the point of action, not only in policies, committees or after-the-fact audits."
 image: /assets/images/ai-enters-sap-governance-og.png
 date: 2026-07-09
+series: "Enterprise AI & Decision Architecture"
+reading_time: "8-minute read"
 ---
 
 # When AI Enters SAP, Governance Becomes Part of the Workflow

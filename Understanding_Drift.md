@@ -5,6 +5,8 @@ permalink: /understanding-drift/
 description: "Why AI can make us sound smarter than we understand, and why human judgement still depends on building real mental models."
 image: /assets/images/understanding-drift-og.png
 date: 2026-07-29
+series: "The Understanding Project"
+reading_time: "15-minute read"
 ---
 
 # Understanding Drift

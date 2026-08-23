@@ -81,14 +81,15 @@
       <span>Veera Babu Tiragatla</span>
     </a>
     <nav aria-label="Primary navigation">
-      <a href="{{ '/' | relative_url }}#journey">Journey</a>
-      <a href="{{ '/' | relative_url }}#insights">Insights</a>
+      <a href="{{ '/essays/' | relative_url }}">Essays</a>
+      <a href="{{ '/signature-ideas/' | relative_url }}">Signature Ideas</a>
       <a href="{{ '/' | relative_url }}#projects">Projects</a>
+      <a href="{{ '/official-profile/' | relative_url }}">Profile</a>
       <a href="{{ '/' | relative_url }}#connect">Connect</a>
     </nav>
   </header>
   <main id="article" class="article-shell">
-    <p class="eyebrow">Tech Insights · Veera Babu Tiragatla</p>
+    <p class="eyebrow">{{ page.series | default: "Tech Insights" }} · Veera Babu Tiragatla</p>
     <article class="article-content">
       {{ content }}
     </article>
