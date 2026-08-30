@@ -4,7 +4,7 @@ title: "Who Carries, Who Decides, Who Learns?"
 subtitle: "What Eight Frontier AI Players Reveal About the Journey from Intelligence to Enterprise Action"
 permalink: /who-carries-who-decides-who-learns/
 description: "A strategic framework for comparing how eight frontier AI players allocate the work, decision rights and learning involved in turning intelligence into enterprise action."
-image: /assets/images/who-carries-who-decides-who-learns-framework.png
+image: /assets/images/who-carries-who-decides-who-learns-framework-v2.png
 image_width: 1536
 image_height: 1024
 date: 2026-08-30
@@ -114,7 +114,7 @@ So the complete journey is really:
 And every movement along that journey requires translation.
 
 <figure class="article-figure article-figure-wide">
-  <img src="/assets/images/who-carries-who-decides-who-learns-framework.png" alt="Seven-stage journey from model intelligence to enterprise execution and outcome, analysed through Translation Load, Decision Rights and Outcome-Loop Position.">
+  <img src="/assets/images/who-carries-who-decides-who-learns-framework-v2.png" alt="Seven-stage journey from model intelligence to enterprise execution and outcome, analysed through Translation Load, Decision Rights and Outcome-Loop Position.">
   <figcaption>The journey from model intelligence to enterprise action reveals who carries the translation work, who retains decision rights and who can connect outcomes back to future decisions.</figcaption>
 </figure>
 
