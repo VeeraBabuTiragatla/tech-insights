@@ -624,6 +624,22 @@ footer {
 .article-content hr { margin: 2.5rem 0; border: 0; border-top: 1px solid var(--line); }
 .article-content a { color: var(--accent); overflow-wrap: anywhere; }
 
+.trademark-notice {
+  margin-top: 2rem;
+  color: var(--ink-soft);
+}
+.article-content .trademark-notice p {
+  margin: .35rem 0 0;
+  color: var(--ink-soft);
+  font-size: .78rem;
+  line-height: 1.55;
+}
+.article-content .trademark-notice .trademark-notice__label {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
 .article-author {
   display: grid;
   grid-template-columns: 72px 1fr;

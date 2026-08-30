@@ -497,7 +497,7 @@ DeepSeek therefore raises a useful strategic question:
 
 Organisational reality may be one answer.
 
-Source: https://api-docs.deepseek.com/guides/tool_calls/
+Source: https://api-docs.deepseek.com/api/create-response/
 
 ---
 
@@ -697,3 +697,8 @@ Because once AI moves from generating answers to changing organisations, intelli
 ## Source note
 
 The player analysis is intentionally based primarily on first-party product and technical documentation. Vendor descriptions are used to establish current product direction; the strategic interpretation in this article is the author's analysis rather than a claim made by the vendors themselves.
+
+<aside class="trademark-notice" aria-label="Trademark notice">
+  <p class="trademark-notice__label">Trademark notice</p>
+  <p>All product names, logos, brands, and trademarks featured or referred to within this article and accompanying graphics are the property of their respective trademark holders. Their use here is for editorial identification, comparative research, and educational commentary under nominative fair use. No affiliation, sponsorship, or endorsement is implied.</p>
+</aside>
