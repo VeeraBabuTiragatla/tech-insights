@@ -506,3 +506,7 @@ For enterprise leaders, that leaves a question more durable than another model c
 **Technology Landscape**
 
 Practical perspectives on the technologies, architectures, and competitive shifts reshaping enterprise systems.
+
+### Continue the series
+
+The next essay follows intelligence further into enterprise action: [**Who Carries, Who Decides, Who Learns?**](/who-carries-who-decides-who-learns/)
