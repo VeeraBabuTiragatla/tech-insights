@@ -622,7 +622,7 @@ footer {
 .article-content th { color: white; background: var(--accent-dark); }
 .article-content tr:nth-child(even) { background: var(--surface); }
 .article-content hr { margin: 2.5rem 0; border: 0; border-top: 1px solid var(--line); }
-.article-content a { color: var(--accent); }
+.article-content a { color: var(--accent); overflow-wrap: anywhere; }
 
 .article-author {
   display: grid;
