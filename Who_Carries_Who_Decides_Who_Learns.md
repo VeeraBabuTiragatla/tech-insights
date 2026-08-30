@@ -1,10 +1,10 @@
 ---
 layout: default
 title: "Who Carries, Who Decides, Who Learns?"
-subtitle: "What Eight Frontier AI Companies Reveal About the Journey from Intelligence to Enterprise Action"
+subtitle: "What Eight Frontier AI Players Reveal About the Journey from Intelligence to Enterprise Action"
 permalink: /who-carries-who-decides-who-learns/
-description: "A strategic framework for comparing how eight frontier AI companies allocate the work, decision rights and learning involved in turning intelligence into enterprise action."
-image: /assets/images/who-carries-who-decides-who-learns-framework.jpg
+description: "A strategic framework for comparing how eight frontier AI players allocate the work, decision rights and learning involved in turning intelligence into enterprise action."
+image: /assets/images/who-carries-who-decides-who-learns-framework.png
 image_width: 1536
 image_height: 1024
 date: 2026-08-30
@@ -13,7 +13,7 @@ series: "Technology Landscape"
 
 # Who Carries, Who Decides, Who Learns?
 
-<p class="article-deck">What Eight Frontier AI Companies Reveal About the Journey from Intelligence to Enterprise Action</p>
+<p class="article-deck">What Eight Frontier AI Players Reveal About the Journey from Intelligence to Enterprise Action</p>
 
 <p class="article-meta">Veera Babu Tiragatla &middot; Technology Landscape</p>
 
@@ -67,7 +67,7 @@ I think enterprises increasingly need to ask three different questions:
 ### Who retains the decision rights?  
 ### Who gets close enough to the outcome to learn?
 
-Those three questions reveal very different strategies across today's frontier AI companies.
+Those three questions reveal very different strategies across today's frontier AI players.
 
 ---
 
@@ -114,7 +114,7 @@ So the complete journey is really:
 And every movement along that journey requires translation.
 
 <figure class="article-figure article-figure-wide">
-  <img src="/assets/images/who-carries-who-decides-who-learns-framework.jpg" alt="Seven-stage journey from model intelligence to enterprise execution and outcome, analysed through Translation Load, Decision Rights and Outcome-Loop Position.">
+  <img src="/assets/images/who-carries-who-decides-who-learns-framework.png" alt="Seven-stage journey from model intelligence to enterprise execution and outcome, analysed through Translation Load, Decision Rights and Outcome-Loop Position.">
   <figcaption>The journey from model intelligence to enterprise action reveals who carries the translation work, who retains decision rights and who can connect outcomes back to future decisions.</figcaption>
 </figure>
 
@@ -335,7 +335,7 @@ A system that can connect outcomes back to decisions has something more valuable
 
 It has the beginnings of an **operational learning loop**.
 
-OpenAI makes this increasingly explicit in Frontier. The platform combines enterprise business context, agent execution, individual agent identities and permissions, observability, and evaluation and optimisation loops.
+OpenAI makes this increasingly explicit in OpenAI Frontier, its enterprise platform for operating AI agents. The platform combines enterprise business context, agent execution, individual agent identities and permissions, observability, and evaluation and optimisation loops.
 
 Again, this should not be confused with using enterprise customer data to retrain foundation models.
 
@@ -349,9 +349,9 @@ And that may become an important source of advantage.
 
 ---
 
-## Eight companies, three questions
+## Eight players, three questions
 
-Viewed this way, the eight frontier AI companies begin to look less like participants in one model race and more like experiments in how intelligence should connect to organisational reality.
+Viewed this way, the eight frontier AI players begin to look less like participants in one model race and more like experiments in how intelligence should connect to organisational reality.
 
 ## OpenAI — absorbing more of the journey
 
@@ -497,13 +497,13 @@ DeepSeek therefore raises a useful strategic question:
 
 Organisational reality may be one answer.
 
-Source: https://api-docs.deepseek.com/guides/function_calling
+Source: https://api-docs.deepseek.com/guides/tool_calls/
 
 ---
 
-## xAI — rapidly moving from world context toward enterprise action
+## SpaceXAI (xAI/Grok) — rapidly moving from world context toward enterprise action
 
-xAI is the company where earlier assumptions can become outdated quickly.
+xAI is the case where earlier assumptions can become outdated quickly.
 
 Its proximity to X makes it tempting to characterise Grok mainly around real-time external information.
 
@@ -549,7 +549,7 @@ Source: https://www.kimi.com/en/help/kimi-work/overview
 
 ## What the comparison reveals
 
-The eight companies do not divide neatly into permanent categories.
+The eight players do not divide neatly into permanent categories.
 
 That is actually the point.
 
@@ -588,7 +588,7 @@ These questions reveal something benchmark tables cannot.
 ---
 
 <figure class="article-figure article-figure-wide">
-  <img src="/assets/images/organisational-reality-frontier-ai-strategies.png" alt="Eight frontier AI companies approaching the scarce core of organisational reality, including context, identity, business rules, authority, execution, outcomes and institutional memory.">
+  <img src="/assets/images/organisational-reality-frontier-ai-strategies-v2.png" alt="Eight frontier AI players approaching the scarce core of organisational reality, including context, identity, business rules, authority, execution, outcomes and institutional memory.">
   <figcaption>Different AI strategies approach the same scarce enterprise core: organisational meaning, authority, execution, outcomes and institutional memory.</figcaption>
 </figure>
 
@@ -696,4 +696,4 @@ Because once AI moves from generating answers to changing organisations, intelli
 
 ## Source note
 
-The company analysis is intentionally based primarily on first-party product and technical documentation. Vendor descriptions are used to establish current product direction; the strategic interpretation in this article is the author's analysis rather than a claim made by the vendors themselves.
+The player analysis is intentionally based primarily on first-party product and technical documentation. Vendor descriptions are used to establish current product direction; the strategic interpretation in this article is the author's analysis rather than a claim made by the vendors themselves.
