@@ -437,3 +437,10 @@ But whether we continue to build understanding, rather than merely sound as if w
 ## About the author
 
 Veera Babu Tiragatla writes about enterprise systems, AI, and the human side of understanding. His work explores how intelligent systems are changing the way people think, decide, and learn. Understanding Drift is the first essay in *The Understanding Project*, an ongoing exploration of human understanding in the age of intelligent systems.
+
+<nav class="understanding-series-nav" aria-label="The Understanding Project essays">
+  <p class="series-nav-label">The Understanding Project</p>
+  <div class="current"><span>Essay I</span><strong>Understanding Drift</strong></div>
+  <a href="/can-understanding-be-delegated/"><span>Essay II</span><strong>Can Understanding Be Delegated?</strong></a>
+  <div class="coming"><span>Essay III · Coming next</span><strong>The Architecture of Mental Models</strong></div>
+</nav>

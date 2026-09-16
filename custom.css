@@ -612,6 +612,8 @@ footer {
   border-radius: 14px;
   box-shadow: 0 24px 70px rgba(21,35,31,.10);
 }
+.article-figure .figure-zoom { display: block; }
+.article-figure .figure-zoom img { display: block; }
 
 .article-content h2 { margin: 2.7rem 0 1rem; font-size: clamp(1.55rem, 3.2vw, 2.15rem); }
 .article-content h3 { margin-top: 2rem; font-size: 1.25rem; }
@@ -623,6 +625,68 @@ footer {
 .article-content tr:nth-child(even) { background: var(--surface); }
 .article-content hr { margin: 2.5rem 0; border: 0; border-top: 1px solid var(--line); }
 .article-content a { color: var(--accent); overflow-wrap: anywhere; }
+
+.article-question {
+  margin: 1.35rem 0;
+  padding-left: 1.1rem;
+  color: var(--ink) !important;
+  border-left: 3px solid var(--warm);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.15rem, 2.2vw, 1.45rem) !important;
+  line-height: 1.45;
+}
+
+.source-note {
+  margin: .7rem 0;
+  padding-left: 1.6rem;
+  color: var(--ink-soft) !important;
+  font-size: .9rem !important;
+  text-indent: -1.6rem;
+}
+
+.source-intro { color: var(--ink-soft) !important; }
+
+.understanding-series-nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 3.5rem;
+  overflow: hidden;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+
+.understanding-series-nav .series-nav-label {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: .85rem 1rem;
+  color: #fff;
+  background: var(--accent-dark);
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+}
+
+.understanding-series-nav > a,
+.understanding-series-nav > div {
+  display: flex;
+  min-height: 112px;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--ink);
+  background: var(--paper-soft);
+  text-decoration: none;
+}
+
+.understanding-series-nav > a:hover,
+.understanding-series-nav > a:focus { background: #fff8ec; }
+.understanding-series-nav .current { background: #edf4f1; }
+.understanding-series-nav .coming { color: var(--ink-soft); }
+.understanding-series-nav span { color: var(--accent); font-size: .72rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
+.understanding-series-nav strong { font-family: Georgia, "Times New Roman", serif; font-size: 1rem; line-height: 1.25; }
 
 .trademark-notice {
   margin-top: 2rem;
@@ -1329,4 +1393,8 @@ nav a[aria-current="page"] { color: var(--accent-dark); font-weight: 750; }
   .series-heading .card-type { grid-row: auto; }
   .essay-meta { flex-direction: row; gap: .75rem; }
   .latest-entry { padding-left: .8rem; }
+  .understanding-series-nav { grid-template-columns: 1fr; }
+  .understanding-series-nav .series-nav-label { grid-column: auto; }
+  .understanding-series-nav > a,
+  .understanding-series-nav > div { min-height: 88px; }
 }

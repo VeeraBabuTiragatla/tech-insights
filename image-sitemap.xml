@@ -57,6 +57,19 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.veerababutiragatla.com/can-understanding-be-delegated/</loc>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/the-delegation-gap-veera-understanding-project.png</image:loc>
+      <image:title>The Delegation Gap</image:title>
+      <image:caption>Delegated cognitive work, returned AI output, evaluation dependency and the internal understanding needed for judgement.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/epistemic-delegation-boundary-veera.png</image:loc>
+      <image:title>The Epistemic Delegation Boundary</image:title>
+      <image:caption>A continuum from externally verifiable tasks to work requiring increasing context, judgement and internal understanding.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.veerababutiragatla.com/the-machine-can-recommend-the-architecture-must-answer/</loc>
     <image:image>
       <image:loc>https://www.veerababutiragatla.com/assets/images/machine-can-recommend-architecture-must-answer.png</image:loc>
