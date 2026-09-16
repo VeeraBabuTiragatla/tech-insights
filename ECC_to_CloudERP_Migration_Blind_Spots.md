@@ -15,7 +15,7 @@ reading_time: "5-minute read"
 
 ### Introduction
 
-Migrating from SAP ECC to S/4HANA or a cloud ERP platform is now routine — but routine does not equal risk-free. Most projects are scheduled like a technology upgrade; the real disruption comes from the behavioral, data and operational blind spots no one puts in the Gantt chart. Based on multiple programs I’ve worked on, here are three persistent blind spots — practical examples, pragmatic fixes, and what to watch for in each phase.
+Migrating from SAP ECC to S/4HANA or a cloud ERP platform is now routine — but routine does not equal risk-free. Most projects are scheduled like a technology upgrade; the real disruption comes from the behavioural, data and operational blind spots no one puts in the Gantt chart. Based on multiple programs I’ve worked on, here are three persistent blind spots — practical examples, pragmatic fixes, and what to watch for in each phase.
 
 ---
 
@@ -28,7 +28,7 @@ Every ECC landscape carries decades of bespoke logic: Z-programs, user exits, lo
 **Practical fixes**
 - **Operational rehearsals:** Run your actual batches and interface flows in a sandbox that mirrors cloud permissions — watch for IO, local file use, background schedulers and timezone assumptions.
 - **Risk map:** Identify top 20 custom objects by business impact and test them first (not last).
-- **Behavioral tests, not just static scans:** ATC and code-metric tools are useful — but also schedule real executions to reveal run-time assumptions.
+- **Behavioural tests, not just static scans:** ATC and code-metric tools are useful — but also schedule real executions to reveal run-time assumptions.
 
 **Consultant tip:** Add an “operational rehearsal” gate into your migration milestones. It prevents surprises that cost weeks, not days.
 

@@ -8,6 +8,7 @@ image: /assets/images/who-carries-who-decides-who-learns-framework-v2.png
 image_width: 1536
 image_height: 1024
 date: 2026-08-30
+reading_time: "14-minute read"
 series: "Technology Landscape"
 ---
 
@@ -15,7 +16,7 @@ series: "Technology Landscape"
 
 <p class="article-deck">What Eight Frontier AI Players Reveal About the Journey from Intelligence to Enterprise Action</p>
 
-<p class="article-meta">Veera Babu Tiragatla &middot; Technology Landscape</p>
+<p class="article-meta">Veera Babu Tiragatla &middot; Technology Landscape &middot; 14-minute read</p>
 
 In my previous article, [**“Why Enterprise AI Is Becoming Harder to Compare,”**](/why-enterprise-ai-is-becoming-harder-to-compare/) I argued that much of the confusion around enterprise AI comes from comparing products that occupy different parts of the technology stack.
 

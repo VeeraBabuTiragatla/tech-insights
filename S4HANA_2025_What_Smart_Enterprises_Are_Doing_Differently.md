@@ -4,6 +4,8 @@ title: "S/4HANA in 2025: What Smart Enterprises Are Doing Differently"
 permalink: /S4HANA_2025_What_Smart_Enterprises_Are_Doing_Differently.html
 description: "Why effective S/4HANA transformations treat the programme as business architecture rather than a technical upgrade."
 image: /s4hana-thebest.png
+image_width: 1024
+image_height: 1024
 date: 2025-11-17
 series: "Technology Landscape"
 reading_time: "5-minute read"

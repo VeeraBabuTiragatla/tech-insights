@@ -176,7 +176,7 @@ Sometimes that is exactly what we want.
 
 But compression creates an interesting possibility: we may acquire the representation of understanding faster than we acquire the structure underneath it.
 
-Research on metacognition has shown that people can misjudge what they have learned, and that fluency can sometimes influence judgments of understanding. [[2]](https://doi.org/10.1146/annurev-psych-113011-143823)
+Research on metacognition has shown that people can misjudge what they have learned, and that fluency can sometimes influence judgements of understanding. [[2]](https://doi.org/10.1146/annurev-psych-113011-143823)
 
 I have noticed versions of this in professional conversations for years.
 
