@@ -70,6 +70,14 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.veerababutiragatla.com/research/rn001/</loc>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/rn001-exploratory-discretion-continuum.png</image:loc>
+      <image:title>From Enterprise AI Recommendations to AI Actions</image:title>
+      <image:caption>Exploratory discretion continuum mapping five AI roles from information retrieval to objective-based execution.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.veerababutiragatla.com/the-machine-can-recommend-the-architecture-must-answer/</loc>
     <image:image>
       <image:loc>https://www.veerababutiragatla.com/assets/images/machine-can-recommend-architecture-must-answer.png</image:loc>
