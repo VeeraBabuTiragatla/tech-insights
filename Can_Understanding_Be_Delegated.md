@@ -1272,8 +1272,8 @@ The terms Proxy Understanding, Evaluation Dependency, Epistemic Delegation Bound
 
 
 <nav class="understanding-series-nav" aria-label="The Understanding Project essays">
-  <p class="series-nav-label">The Understanding Project</p>
+  <p class="series-nav-label"><a href="/research/the-understanding-project/">The Understanding Project</a></p>
   <a href="/understanding-drift/"><span>Essay I</span><strong>Understanding Drift</strong></a>
   <div class="current"><span>Essay II · Current</span><strong>Can Understanding Be Delegated?</strong></div>
-  <div class="coming"><span>Essay III · Coming next</span><strong>The Architecture of Mental Models</strong></div>
+  <a href="/research/the-architecture-of-understanding/"><span>Essay III</span><strong>The Architecture of Understanding</strong></a>
 </nav>

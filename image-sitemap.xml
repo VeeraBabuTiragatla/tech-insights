@@ -78,6 +78,22 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.veerababutiragatla.com/research/the-understanding-project/</loc>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/understanding-project-trilogy.png</image:loc>
+      <image:title>The Understanding Project</image:title>
+      <image:caption>The three-part inquiry into the gap, boundary and construction of human understanding in an AI era.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.veerababutiragatla.com/research/the-architecture-of-understanding/</loc>
+    <image:image>
+      <image:loc>https://www.veerababutiragatla.com/assets/images/architecture-of-understanding-framework.png</image:loc>
+      <image:title>The Architecture of Understanding</image:title>
+      <image:caption>Framework showing external AI scaffolding, the substitution threshold, an internal mental model and cognitive stewardship.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.veerababutiragatla.com/the-machine-can-recommend-the-architecture-must-answer/</loc>
     <image:image>
       <image:loc>https://www.veerababutiragatla.com/assets/images/machine-can-recommend-architecture-must-answer.png</image:loc>
