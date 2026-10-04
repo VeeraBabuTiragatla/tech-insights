@@ -235,7 +235,9 @@ We recognise the coherence.
 
 But recognising a coherent explanation is not necessarily the same as constructing the coherence ourselves.
 
-Metacognitive research shows that the feeling of fluency is not a perfect measure of what we can later retrieve or use independently. [Asher Koriat - metacognitive monitoring](https://doi.org/10.1109/TLT.2012.11)
+<!-- Citation correction, 4 October 2026: replaced an unrelated IEEE DOI with Koriat (1997), DOI 10.1037/0096-3445.126.4.349. -->
+
+Koriat's research on judgements of learning, including [*Monitoring One's Own Knowledge during Study: A Cue-Utilization Approach to Judgments of Learning*](https://doi.org/10.1037/0096-3445.126.4.349), examines how people infer what they have learned from cues whose relationship to later recall can vary. Applied to AI-assisted reading, this suggests a useful caution: feeling that an explanation is clear does not, by itself, establish that we can later use its relationships.
 
 Something can feel clear while we are reading it and disappear when we have to rebuild it ourselves.
 

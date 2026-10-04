@@ -1193,6 +1193,41 @@ body {
   font-weight: 700;
 }
 
+.understanding-project-home-feature {
+  grid-template-columns: minmax(0, .9fr) minmax(280px, 1.1fr);
+}
+
+.field-feature-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.25rem;
+  margin-top: 1.35rem;
+}
+
+.field-feature-actions .project-button {
+  margin-top: 0;
+}
+
+.field-feature-actions .primary-project-button {
+  padding: .75rem 1rem;
+  color: var(--paper);
+  background: var(--accent-dark);
+  text-decoration: none;
+}
+
+.field-feature-image {
+  display: block;
+  padding: .5rem;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.field-feature-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .authority-sketch {
   display: grid;
   gap: .4rem;
