@@ -1719,3 +1719,104 @@ nav a[aria-current="page"] { color: var(--accent-dark); font-weight: 750; }
   .research-trail > div { grid-template-columns: 1fr; gap: .35rem; }
   .research-figure { width: 100%; max-width: 100%; }
 }
+
+/* Quiet academic authority: restrained, site-wide editorial hierarchy */
+.hero {
+  padding: clamp(3.75rem, 7vw, 5.5rem) 0 clamp(3.5rem, 6.5vw, 5rem);
+}
+
+h1,
+.field-hero h1,
+.idea-hero h1,
+.profile-copy h1,
+.article-content > h1:first-of-type,
+.essay-index-hero h1,
+.research-index-hero h1,
+.research-note-header h1,
+.understanding-project-hero h1 {
+  font-size: clamp(2rem, 3.4vw, 2.75rem);
+  line-height: 1.12;
+  letter-spacing: -.025em;
+}
+
+.hero-copy,
+.article-deck,
+.project-subtitle,
+.profile-subtitle,
+.research-note-subtitle {
+  font-size: clamp(1.05rem, 1.7vw, 1.25rem) !important;
+  line-height: 1.5;
+}
+
+.section,
+.field-main .section {
+  padding-top: clamp(3.5rem, 6vw, 5.25rem);
+  padding-bottom: clamp(3.5rem, 6vw, 5.25rem);
+}
+
+.section-heading h2,
+.field-main .section-heading h2,
+.series-heading h2,
+.research-section h2,
+.understanding-project-essays > h2 {
+  font-size: clamp(1.55rem, 2.4vw, 1.875rem);
+  line-height: 1.2;
+  letter-spacing: -.015em;
+}
+
+.article-content h2 {
+  font-size: clamp(1.5rem, 2.4vw, 1.875rem);
+  line-height: 1.25;
+}
+
+.understanding-project-grid h3,
+.understanding-project-index-feature h3,
+.published-note h3 {
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.25;
+}
+
+.statement,
+blockquote p,
+.field-latest-note p {
+  font-size: clamp(1.25rem, 2.2vw, 1.65rem);
+}
+
+.connect-section {
+  padding-top: clamp(3.75rem, 7vw, 5.75rem);
+  padding-bottom: clamp(3.75rem, 7vw, 5.75rem);
+}
+
+.connect-section h2 {
+  font-size: clamp(1.625rem, 2.8vw, 2rem);
+  line-height: 1.25;
+}
+
+.article-shell {
+  padding: clamp(3.5rem, 6vw, 5rem) 0;
+}
+
+.essay-index-hero,
+.research-index-hero,
+.research-note-header,
+.understanding-project-hero,
+.field-hero {
+  padding-top: clamp(3.5rem, 6vw, 5rem);
+  padding-bottom: clamp(3rem, 5vw, 4.25rem);
+}
+
+.understanding-project-hero h1 {
+  margin-bottom: .9rem;
+}
+
+.project-author {
+  margin-bottom: 2rem;
+  letter-spacing: .08em;
+}
+
+.understanding-project-essays {
+  padding-top: clamp(3.5rem, 6vw, 5rem);
+  padding-bottom: clamp(4rem, 7vw, 6rem);
+}
+
+@media (max-width: 520px) {
