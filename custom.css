@@ -1820,3 +1820,19 @@ blockquote p,
 }
 
 @media (max-width: 520px) {
+  h1,
+  .field-hero h1,
+  .idea-hero h1,
+  .profile-copy h1,
+  .article-content > h1:first-of-type,
+  .essay-index-hero h1,
+  .research-index-hero h1,
+  .research-note-header h1,
+  .understanding-project-hero h1 {
+    max-width: 100%;
+    font-size: clamp(1.8rem, 8.5vw, 2.125rem);
+    overflow-wrap: anywhere;
+  }
+
+  .understanding-project-hero { padding-top: 3rem; }
+}
