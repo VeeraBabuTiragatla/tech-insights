@@ -1,0 +1,46 @@
+name: Author visibility build
+on:
+  push:
+    branches: [author-visibility-20261112]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Build complete GitHub Pages site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          destination: ./_site
+      - name: Verify book output and sitemap
+        shell: python
+        run: |
+          from pathlib import Path
+          import json, re, xml.etree.ElementTree as ET
+          site = Path('_site')
+          url = 'https://www.veerababutiragatla.com/books/when-answers-outrun-us/'
+          page = (site / 'books/when-answers-outrun-us/index.html').read_text()
+          assert not page.startswith('---')
+          assert 'B0HQJR9YZN' in page and 'B0HQJPGV1R' in page
+          assert '<link rel="canonical" href="' + url + '">' in page
+          assert (site / 'assets/images/when-answers-outrun-us-cover.jpg').stat().st_size > 0
+          assert (site / 'assets/css/book.css').stat().st_size > 0
+          for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>', page, re.S):
+              json.loads(block)
+          sitemap = ET.parse(site / 'sitemap.xml')
+          urls = {n.text for n in sitemap.iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
+          assert url in urls
+          for route in ['understanding-drift', 'can-understanding-be-delegated', 'research/the-architecture-of-understanding', 'official-profile', 'research/the-understanding-project']:
+              html = (site / route / 'index.html').read_text()
+              assert '/books/when-answers-outrun-us/' in html, route
+          print('PASS: complete Jekyll build, canonical, schema, editions, assets, sitemap and related pages')
+      - name: Preserve built site for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: author-visibility-built-site
+          path: _site
+          retention-days: 3
