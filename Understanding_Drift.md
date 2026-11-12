@@ -444,3 +444,8 @@ Veera Babu Tiragatla writes about enterprise systems, AI, and the human side of 
   <a href="/can-understanding-be-delegated/"><span>Essay II</span><strong>Can Understanding Be Delegated?</strong></a>
   <a href="/research/the-architecture-of-understanding/"><span>Essay III</span><strong>The Architecture of Understanding</strong></a>
 </nav>
+
+
+---
+
+**Continue the inquiry:** [When Answers Outrun Us](/books/when-answers-outrun-us/) explores AI delegation, human understanding and Cognitive Stewardship in book form, available in paperback and Kindle editions.
